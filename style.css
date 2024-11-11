@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+@media (max-width: 960px) {
+
+  h1 {
+    color: #601212;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  body {
+    color: #575F7D;
+    background-color: #f1e7e7;
+    font-family: Times, serif;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+  }
+
+  h2 {
+    color: #601212;
+  }
+
+  a {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none
+  }
+
+  .container {
+    margin-left: 100px; /* This automatically sets left/right margins */
+    margin-right: 200px; /* This automatically sets left/right margins */
+    width: 700px
+  }
+
+  .card {
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+
+  .img-circle {
+    width: 100px; /* Set the desired width */
+    height: 100px; /* Set the desired height */
+    border-radius: 50%; /* Makes the image circular */
+    margin: 0 auto;
+    overflow: clip;
+  }
+
+  .img-circle img {
+    width: 100%;  /* Make the image fill the container */
+    height: 100%; /* Ensures the image is fully contained */
+    object-fit: cover; /* Prevents distortion by cropping to fit */
+  }
+
+  .list-inline > li {
+    font-size: 40px;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    color: rgb(111, 111, 111);
+  }
+
+  .button {
+    background-color: rgb(111, 111, 111);
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 10px auto;
+    border-radius: 8%;
+    padding: 12px 30px;
+    display: inline-block;
+  }
+
+  .button:hover {
+    background-color: rgb(35, 31, 118);
+  }
+}
+
+@media (max-width: 720px) {
+
+  h1 {
+    color: #601212;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  body {
+    color: #575F7D;
+    background-color: #f1e7e7;
+    font-family: Times, serif;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+  }
+
+  h2 {
+    color: #601212;
+  }
+
+  a {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none
+  }
+
+  .container {
+    margin-left: 150px; /* This automatically sets left/right margins */
+    margin-right: 150px; /* This automatically sets left/right margins */
+    width: 500px
+  }
+
+  .card {
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+  }
+
+  .img-circle {
+    width: 80px; /* Set the desired width */
+    height: 80px; /* Set the desired height */
+    border-radius: 50%; /* Makes the image circular */
+    margin: 0 auto;
+    overflow: clip;
+  }
+
+  .img-circle img {
+    width: 100%;  /* Make the image fill the container */
+    height: 100%; /* Ensures the image is fully contained */
+    object-fit: cover; /* Prevents distortion by cropping to fit */
+  }
+
+  .list-inline > li {
+    font-size: 40px;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    color: rgb(111, 111, 111);
+  }
+
+  .button {
+    background-color: rgb(111, 111, 111);
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 10px auto;
+    border-radius: 8%;
+    padding: 12px 30px;
+    display: inline-block;
+  }
+
+  .button:hover {
+    background-color: rgb(35, 31, 118);
+  }
+}
